@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Anne-Marie Kouakou | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div class="header-text">
+      <h1>Bienvenue sur ma page personnelle</h1>
+      <p>Anne-Marie Kouakou</p>
+    </div>
+  </nav>
+</header>
+
+<section id="apropos">
+  <h2>À propos de moi</h2>
+  <p>
+    Je suis <strong>Anne-Marie Kouakou</strong>, passionnée par le digital,
+    l’innovation et la transformation numérique.
+  </p>
+</section>
+
+<section id="parcours">
+  <h2>Mon parcours</h2>
+  <p class="resume">
+    Parcours académique et professionnel orienté digital et adaptation en environnement exigeant.
+  </p>
+
+  <div class="bloc">
+    <h3>Formation académique</h3>
+    <ul>
+      <li>Étudiante à l’UVCI – Formation de base en numérique</li>
+    </ul>
+  </div>
+
+  <div class="bloc">
+    <h3>Stages professionnels</h3>
+    <ul>
+      <li>Orange – Commerciale terrain (RMO) : 3 mois</li>
+      <li>Orange – Caissière (TKGS Abidjan) : 2 mois</li>
+      <li>SIAM – Assistante commerciale : 3 mois</li>
+    </ul>
+  </div>
+
+  <div class="bloc">
+    <h3>Formations & concours</h3>
+    <ul>
+      <li>Digital O’Féminin Tour</li>
+      <li>DigiFemme – Gestion de projet</li>
+      <li>Formation Piscine – CERCO (travail sous pression)</li>
+      <li>Entreprenathon AUF – Tunisie (Prix spécial)</li>
+    </ul>
+  </div>
+</section>
+
+<section id="passion">
+  <h2>Ma passion</h2>
+  <p class="resume">Le digital comme levier de performance, de sécurité et d’innovation.</p>
+  
+  <p>Je suis passionnée par le digital sous toutes ses formes : informatique, données clients, digitalisation des processus. 
+  Cette passion vient de mon envie de créer des solutions concrètes, de transformer les activités quotidiennes grâce à la technologie et d’optimiser la gestion des données pour un impact réel.</p>
+  
+  <p>Je m’intéresse également au sport, à l’armée et à la médecine, car je souhaite développer discipline, rigueur et polyvalence dans tous les domaines.</p>
+  
+  <p>Mon objectif professionnel est de devenir <strong>technicienne en informatique dans l’armée</strong>, afin de mettre mes compétences au service de la nation.</p>
+  
+   <a href="decouvre_ta_surprise.html" class="btn-surprise">
+      Découvre ta petite surprise
+    </a>
+
+  <div id="imagesContainer" style="margin-top:20px;"></div>
+</section>
+
+<script>
+  document.getElementById("decouvre_ta_surprise.html").addEventListener("click", function () {
+    alert(
+      "Chaque parcours commence par un pas. Crois en toi, avance avec discipline et n’abandonne jamais."
+    );
+
+    const container = document.getElementById("imagesContainer");
+    container.innerHTML = `
+      <img src="image1.jpg" alt="Réalisation 1" width="200" style="margin-right:10px;">
+      <img src="image2.jpg" alt="Réalisation 2" width="200">
+    `;
+  });
+</script>
+
+<section id="interets">
+  <h2>Centres d’intérêt</h2>
+  <ul>
+    <li>Technologies numériques</li>
+    <li>Données clients</li>
+    <li>Discipline militaire</li>
+    <li>Innovation</li>
+  </ul>
+</section>
+
+<section id="activites">
+  <h2>Activités extra-scolaires</h2>
+  <ul>
+    <li>Placement de personnel</li>
+    <li>Confection de vêtements en laine</li>
+  </ul>
+  <img src="image/WhatsApp Image 2025-02-07 à 06.40.54_9ffbf536.jpg" alt="Activité">
+</section>
+
+<footer>
+  <p>© 2026 – Anne-Marie Kouakou</p>
+</footer>
+
+</body>
+</html>
